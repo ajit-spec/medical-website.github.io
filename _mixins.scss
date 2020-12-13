@@ -1,0 +1,31 @@
+@mixin btn-style {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+
+  &:focus {
+    outline: 0;
+  }
+}
